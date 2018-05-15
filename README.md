@@ -2,6 +2,8 @@
 
 In this respository, we will explore one way of applying machine learning technique to real-life data.
 In this example, given 25,000 **labelled** IMDb reviews, we will **classify** each review to be either **positive or negative**.
+<br/>
+<br/>Code's available [here](https://github.com/ng-kode/Imdb-reviews-sentiment-analysis/blob/master/(Acc%2088%25)Densely-connected-layers.ipynb).
 
 ## Overview
 
