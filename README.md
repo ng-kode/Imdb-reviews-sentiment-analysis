@@ -14,7 +14,7 @@ Our model can attain:
   - Precision of 89.4% (total number of correct predictions / total number of predictions)
   - Recall of 88.0% and 90% (total number of reviews predicted as positive /  total number of positive reviews, and vice versa)
 
-(result_cm.png)
+![alt text](https://github.com/ng-kode/Imdb-reviews-sentiment-analysis/blob/master/result_cm "Result Confusion Matrix")
 
 ### Installation
 
