@@ -16,6 +16,29 @@ Our model can attain:
 
 ![alt text](https://github.com/ng-kode/Imdb-reviews-sentiment-analysis/blob/master/result_cm "Result Confusion Matrix")
 
-### Installation
+## Installation
 
-(requirements.txt to be written)
+Requires 
+- python 3
+- pip for package installation (normally pre-packed with python) 
+- [virtualenv](https://virtualenv.pypa.io/en/stable/installation) (optional tho recommanded, for re-usable environment)
+
+Download the project, cd to project dir, then install packages
+
+```sh
+$ git clone https://github.com/ng-kode/Imdb-reviews-sentiment-analysis.git
+$ cd Imdb-reviews-sentiment-analysis
+
+# if using virtualenv
+$ virtualenv -p python3 ENV
+$ source ./ENV/bin/activate
+
+# install packages
+$ pip install -r requirements.txt
+
+# after completion, open the notebook by
+$ jupyter notebook
+```
+Default web browser should be automatically launched with address http://localhost:8888/
+If not, go to the hosting terminal and find http://localhost:8888/?token=AS-SEEN-FROM-TERMINAL
+> Note: The notebook is pre-compiled so that you can see the result without running. Once run, the printed content in notebook **will be removed** and updated. A clone of the notebook is therefore suggested if preservation of a printed content is preferred.
